@@ -1,0 +1,37 @@
+.homepage-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    justify-content: center ;
+    flex-direction: row;
+    font-size: 5px;
+    margin: 1rem auto 0 auto
+}
+
+.image-container {
+    background-image: url(../../assets/food-img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 65vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2rem 3rem 5rem #aaa
+}
+
+section {
+    width:100%;
+    padding: 1rem;
+    margin: 0 1rem;
+}
+
+
+
+
+
+
