@@ -1,70 +1,77 @@
-# Getting Started with Create React App
+# Deelopdracht 4. Installatiehandleiding
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+"Mijn gezonde eetgids", designed by Kailash Bhaggoe
 
-## Available Scripts
+## Inleiding
 
-In the project directory, you can run:
+Mijn gezonde eetgids, zoals de naam het al aanduidt, is een gids voor mensen die het dagelijks lastig vinden om te zoeken naar de juiste voeding die een gezonde lifestyle ondersteunen. De applicatie dient mensen met overgewicht en een ongezonde leefpatroon bewuster te maken van de opties in voeding
 
-### `npm start`
+![screenshot](src/assets/homepage.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Applicatie starten
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+1. Open Webstorm of je eigen editor naar keuze en navigeer naar je terminal.
+2. Zorg ervoor dat je een versie van Node.js heb geinstalleerd die hoger is dan 14. Dit kun je checken met de commando ```node -v```
+3. Kies in WebStorm voor 'Nieuw project', en selecteer vervolgens een 'React Project'. Wanneer je jouw project een naam hebt gegeven, zal de installatiebeginnen. Gebruik je een andere editor? Voer het volgende commando handmatig in, in de Command Prompt of Terminal:
 
-### `npm test`
+```
+npx create-react-app <naam-van-jouw-app>
+```
+4. Clone het project van Github naar jouw locale machine en installeer de `node_modules` door het volgende commando in de terminal te runnen:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```
+npm install
+```
 
-### `npm run build`
+Wanneer dit klaar is, kun je de applicatie starten met behulp van:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```
+npm start
+```
+of gebruik de WebStorm knop (npm start). Open [http://localhost:3000](http://localhost:3000/) om de pagina in de browser te bekijken.
+5. Het installeren van het project kan een paar minuten in beslag nemen. Als je de melding
+   happy hacking! krijgt te zien, is het goed gegaan.
+6. Tenslotte is er gebruikt gemaakt van de NOVI Educational Backend (https://github.com/hogeschoolnovi/novi-educational-backend-documentation) en de volgende APIs en API keys zijn gebruikt voor het runnen van de applicatie:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```
+https://www.edamam.com/ met API_ID= "b04454ec" & APP_KEY = "e03c1ff77a588dc048a805ab3d6f4239"
+ ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```
+https://spoonacular.com/ met API_KEY = "078f9200662d4e819dc26b9c312f6156"
+```
 
-### `npm run eject`
+## Stappenplan
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+De onderstaand stappenplan kun je volgen voor het runnen van de applicatie:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+1. Je dient je eerst te registreren voordat je kunt inloggen. 
+2. Voor het registreren is een username, email en wachtwoord vereist. Belangrijk om te weten is dat je account na een uur vervalt. Dat betekent dat je je opnieuw dient te registreren indien een uur is verstreken!
+3. Na het registreren kun je inloggen met je username en wachtwoord.
+4. Voor het correct runnen van de applicatie dienen nog de volgende npm packages geinstalleerd te worden middels de onderstaande commando's:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+```
+npm install react-hook-form
+```
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```
+npm install react-router-dom@5.2.0
+```
 
-## Learn More
+```
+npm install axios
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```
+npm install jwt-decode
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+npm install uuid
+```
 
-### Code Splitting
+5.De applicatie zou nu prima moeten runnen. Geniet nog van de lekkere maaltijden!
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Met vriendelijke groet,
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Kailash Bhaggoe
