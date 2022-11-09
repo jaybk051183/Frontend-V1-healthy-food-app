@@ -6,7 +6,7 @@
 
 Mijn gezonde eetgids, zoals de naam het al aanduidt, is een gids voor mensen die het dagelijks lastig vinden om te zoeken naar de juiste voeding die een gezonde lifestyle ondersteunen. De applicatie dient mensen met overgewicht en een ongezonde leefpatroon bewuster te maken van de opties in voeding
 
-![screenshot](src/assets/homepage.png)
+![homepage](https://user-images.githubusercontent.com/98492016/200947788-c72baf2c-7173-4034-b62d-080c74533859.png)
 
 ## Applicatie starten
 
