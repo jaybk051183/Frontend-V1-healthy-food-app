@@ -70,6 +70,10 @@ npm install jwt-decode
 npm install uuid
 ```
 
+```
+npm install react-icons
+```
+
 5.De applicatie zou nu prima moeten runnen. Geniet nog van de lekkere maaltijden!
 
 Met vriendelijke groet,
